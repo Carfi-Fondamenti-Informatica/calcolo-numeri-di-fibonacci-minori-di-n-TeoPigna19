@@ -4,17 +4,20 @@ using namespace std;
 int main()
 {
 
-    int n=0;b=1,a=0,c=0;
-    cin>>n;
+    int n=0, a=1, b=1, c=1;
+    cin>> n;
+    if (n>=1) {
 
-    cout<<b<< endl;
-    for(c=0;c<n;c++)
-    {
-        c=a+b;
+    cout<<a<< endl;
+
+    for(;c<=n;){
+
         cout<<c<<endl;
+        c=a+b;
         a=b;
         b=c;
-        
+
+    }
     }
 
 
